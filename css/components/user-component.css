@@ -1,0 +1,31 @@
+.user-component {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.user-component__avatar {
+    height: 60px;
+    width: 60px;
+    border: 1px solid rgba(136, 111, 111, 0.2);;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.user-component__column {
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+.user-component__text {
+    margin-left: 30px;
+}
+
+.user-component__column:last-child {
+    color: rgba(0, 0, 0, 0.6);
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

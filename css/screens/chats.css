@@ -1,0 +1,22 @@
+.chat-background {
+    position: relative;
+}
+
+
+.chat-background:before {
+    content: "";
+    background: url(../../img/3.jpeg);
+    background-size: cover;
+    opacity: 0.3;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 500px;
+    z-index: 1;
+}
+
+.message-row {
+    margin-left: 1%;
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+@import "reset.css";
+@import "variables.css";
+
+/* components */
+@import "components/status-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/nav-bar.css";
+@import "components/no-mobile.css";
+
+/* screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/chats.css";
+@import "screens/chat.css";
+@import "screens/shoppings.css";
+@import "screens/more.css";
+@import "screens/music.css";
+
+body {
+    font-family: 'Gamja Flower', cursive;
+    height: 100%;
+}
+
